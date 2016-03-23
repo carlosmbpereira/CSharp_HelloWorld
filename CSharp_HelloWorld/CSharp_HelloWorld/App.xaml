@@ -9,7 +9,7 @@
 
         <!-- Application-specific resources -->
 
-        <x:String x:Key="AppName">CSharp_HelloWorld</x:String>
+        <x:String x:Key="AppName">Olá Mundo em C# - Masterdb</x:String>
 
     </Application.Resources>
 </Application>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{04d89607-ee72-4aa1-a3bc-1b111cbb0e09}</ProjectGuid>
+    <ProjectGuid>{04D89607-EE72-4AA1-A3BC-1B111CBB0E09}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CSharp_HelloWorld</RootNamespace>
@@ -14,9 +14,7 @@
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    
     <PackageCertificateKeyFile>CSharp_HelloWorld_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -131,10 +129,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Common\ReadMe.txt" />
-    
     <None Include="CSharp_HelloWorld_TemporaryKey.pfx" />
-    
-    <Content Include="DataModel\SampleData.json"/>
+    <Content Include="Assets\keep-calm-and-may-the-force-be-with-you-320.png" />
+    <Content Include="DataModel\SampleData.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.scale-100.png" />
