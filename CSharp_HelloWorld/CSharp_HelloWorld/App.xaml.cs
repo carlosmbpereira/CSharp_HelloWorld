@@ -18,6 +18,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 //Sergio
+//qq coisa
+
 
 // The Grid App template is documented at http://go.microsoft.com/fwlink/?LinkId=234226
 
